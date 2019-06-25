@@ -1,10 +1,9 @@
 import React from 'react';
+import LoginLayout from '../layouts/LoginLayout';
 
 function Login() {
     return (
-        <div className="App">
-            <h1>Login</h1>
-        </div>
+        <LoginLayout />
     );
 }
 
